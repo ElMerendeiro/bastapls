@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #000; /* Imposta lo sfondo nero */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Allinea l'immagine in alto */
+    padding: 20px; /* Spazio intorno all'immagine */
+}
+
+.scorribile {
+    max-width: 100%;
+    height: auto;
+}
